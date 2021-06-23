@@ -1,0 +1,48 @@
+.navbar{
+ background-color: black;
+ color: white;
+ padding:9px;
+ overflow: hidden;
+}
+.nav-item{
+    color: white;
+    text-decoration: none;
+  float: right;
+  padding: 13px;
+  font-size: 18px;
+}
+.nav-item-select{
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+}
+.header{
+  position:absolute;
+  margin-left: 13px;
+  font-size: 18px;
+  display: inline;
+}
+.login{
+  
+  background-color: black;
+  /* margin-top: 135px; */
+  display: block;
+  margin: 135px auto;
+  padding: 33px;
+  width: 250px;
+}
+input{
+  padding: 8px;
+  display: block;
+  margin: 10px auto;
+}
+button{
+  display: block;
+  background-color: white;
+  margin: 0px auto;
+  padding: 6px;
+}
+a{
+  color: white;
+
+}
