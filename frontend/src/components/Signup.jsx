@@ -32,10 +32,12 @@ export const Signup = () => {
                         cpassword:user.cpassword
         })
         })
-        if(res){
+        if(res.status===200){
+            window.localStorage.setItem("name",user.name);
             history.push('/home');
         }
-        console.log(res);
+        else
+        alert("Some Error Occured");
     }catch(err){
      console.log(err);
     }
