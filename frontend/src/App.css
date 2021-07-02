@@ -40,9 +40,24 @@ button{
   display: block;
   background-color: white;
   margin: 0px auto;
+  width: 135px;
   padding: 6px;
 }
 a{
   color: white;
 
+}
+.home{
+  background-color: black;
+  /* margin-top: 135px; */
+  display: block;
+  margin: 150px auto;
+  padding: 23px;
+  width: 250px;
+}
+.home-btn{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin:30px auto;
 }

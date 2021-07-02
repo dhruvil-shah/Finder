@@ -23,8 +23,7 @@ export const Login = () => {
         if(res.status===200){
             window.localStorage.setItem("name",user.name);
             history.push('/home');
-        }
-            
+        }   
         else
         alert("Some Error Occured");
         } catch (error) {
